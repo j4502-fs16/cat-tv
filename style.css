@@ -438,9 +438,11 @@ p{
   text-align: center;
 }
 .whatiscat iframe{
-    max-width: 600px;
+    width:100%;
 }
-
+.catvideo{
+  width:100%;
+}
 @media screen and (min-width: 600px) {
   .equipments img{
       padding-left: 200px;
@@ -593,11 +595,23 @@ p{
       #catmap{
         width: 50%;
       }
+      .whatiscat iframe{
+          max-width:80%;
+      }
+      .catvideo{
+        max-width:80%;
+      }
 }
 
 
 
 @media screen and (min-width: 1000px) {
+  .whatiscat iframe{
+      max-width:70%;
+  }
+  .catvideo{
+    max-width:70%;
+  }
 	.navcontainer {
 		flex-direction: row;;
 		justify-content: flex-start;
