@@ -61,6 +61,10 @@ form {
   padding: 10px;
 }
 
+.formfloat {
+  float: left;
+}
+
 .pagestart {
   display:flex;
   flex-flow:row;
@@ -949,6 +953,13 @@ margin-right: auto;
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.submit-slideshow {
+  max-width: 1000px;
+  position: relative;
+  float: right;
+  padding: 10px;
 }
 
 /* Next & previous buttons */
