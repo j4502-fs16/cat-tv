@@ -744,6 +744,65 @@ p{
    margin-right: auto;
    text-align:center;
     }
+    .main, .aside, {
+      flex: 1 100%;
+      padding: 10px;
+    }
+    .main {
+      background: lightblue;
+    }
+
+    .aside-1 {
+      background: lightgreen;
+    }
+
+    .aside-2 {
+      background: white;
+      flex-flow: column;
+      text-align: center;
+      margin-top: 10px;
+      margin-right: 1px;
+
+    }
+
+    .wrapper {
+      display: flex;
+      flex-flow: row wrap
+      font-weight: bold;
+      text-align: center;
+      background: #ffffff;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      list-style: none;
+
+    }
+
+    .main {
+      text-align: left
+    }
+
+    .aside-2{
+      order:1;
+    }
+    .main{
+      order: 2;
+    }
+    .aside-1{
+      order: 3;
+    }
+
+    .main {
+      display: flex;
+      flex-flow: row;
+    }
+    .aside {
+      flex: 1 auto;
+    }
+    .main {
+      flex: 3px;
+    }
 /*#calendar{
 display: block;
   margin-left: auto;
@@ -767,6 +826,8 @@ margin-right: auto;
   flex-flow: column;
 }*/
 }
+
+
 
 
 
