@@ -437,7 +437,9 @@ p{
 .detailcontact p{
   text-align: center;
 }
-
+.whatiscat iframe{
+    max-width: 600px;
+}
 
 @media screen and (min-width: 600px) {
   .equipments img{
@@ -677,7 +679,7 @@ p{
   }
 
   .catvideo iframe{
-    position:relative;
+
     width: 100% auto;
   }
   .catvideo{
