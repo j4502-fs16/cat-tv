@@ -61,9 +61,6 @@ form {
   padding: 10px;
 }
 
-.formfloat {
-  float: left;
-}
 
 .pagestart {
   display:flex;
@@ -441,9 +438,6 @@ p{
   text-align: center;
 }
 
-.warpper{
-  background-color: white;
-}
 
 @media screen and (min-width: 600px) {
   .equipments img{
