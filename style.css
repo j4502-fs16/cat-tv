@@ -38,8 +38,9 @@ img {
 }
 
 #mobilelogo{
-  width: 80%;
+  width: 100%;
   padding-right: 30px;
+
 }
 
 
@@ -404,6 +405,7 @@ p{
 }
 
 .menu-trigger {
+  padding-top: 20px;
   font-size: 7.5em;
   order:1;
   flex:1;
@@ -417,9 +419,9 @@ p{
 }
 
 #search {
-  padding-top:10px;
+  padding-top:40px;
   order:3;
-  flex:1;
+  flex:0.75;
 }
 
 
@@ -508,6 +510,9 @@ p{
   border-radius: 4px;
 }
 
+#comments{
+  height: 200px;
+}
 
 .formwrapper div{
   margin-bottom: 30px;
@@ -823,6 +828,7 @@ p{
   .top {
     display: flex;
     flex-flow: row;
+    justify-content: flex-start;
   }
   #channel {
     width:25%;
