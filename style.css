@@ -342,21 +342,21 @@ p{
   border-color: none;
 }
 
-.videos a:link, a:visited {
+/*.videos a:link, a:visited {
   font-family: 'Roboto', sans-serif;
   color:#208a43;
   font-weight: lighter;
   border-bottom: 1px solid #208a43 ;
   text-decoration: none;
-}
+}*/
 
-.videos a:hover, a:active {
-  font-family: 'Roboto', sans-serif;
+/*.videos a:hover, a:active {
+  font-family:'Roboto Condensed', sans-serif;
   color: white;
-  background-color: #208A43;
+  background-color: #12572c;
   display: block;
   font-weight: lighter;
-}
+}*/
 
 	.item {
 	color: #fff;
