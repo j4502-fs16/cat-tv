@@ -342,6 +342,19 @@ p{
   border-color: none;
 }
 
+/*.videos a:hover, a:active {
+  font-family:'Roboto Condensed', sans-serif;
+  color: #12572c;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}*/
+
 	.item {
 	color: #fff;
 	padding: 15px;
