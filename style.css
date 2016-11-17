@@ -828,10 +828,11 @@ p{
   .top {
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
+
   }
   #channel {
     width:25%;
+
   }
 
 	p {
