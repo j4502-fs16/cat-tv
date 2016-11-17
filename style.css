@@ -105,8 +105,12 @@ h2 {
 
 
 h3 {
-  font-size: .75em;
+  font-size: 2em;
   text-align:center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color:#208a43;
+  font-weight: lighter;
   }
 
 h4{
@@ -114,8 +118,16 @@ h4{
   font-size: 2em;
   color:#208a43;
   font-weight: lighter;
+  border-bottom: 1px solid #208a43 ;
 }
-
+h5{
+  font-size: 0.9em;
+  font-family: 'Libre Baskerville', serif;
+  border-top: 1px solid #208a43 ;
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+}
 p{
   font-size: 0.9em;
   font-family: 'Libre Baskerville', serif;
@@ -158,6 +170,15 @@ p{
   margin: 0;
   padding: 0;
 }
+
+/*.videos a:hover{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color:white;
+  font-weight: lighter;
+  border-bottom: 1px solid #208a43;
+  background-color:#208a43;
+}*/
 
 #submit a:link{
   font-family:'Roboto Condensed', sans-serif;
@@ -275,7 +296,7 @@ p{
     text-decoration: none;
 }
 
-.header, .main, .footer{
+.header, .main, {
   flex: 1 100%;
   padding: 10px;
 }
@@ -344,7 +365,11 @@ p{
   text-align:center;
 }
 
-
+#abouttop{
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+}
 
 
 .maintext{
@@ -440,13 +465,38 @@ p{
 .detailcontact p{
   text-align: center;
 }
-.whatiscat iframe{
+/*.whatiscat iframe{
     width:100%;
 }
 .catvideo{
   width:100%;
+}*/
+.catvideo iframe{
+  width: 95%;
+  border: none;
+  padding: 0 10px;
+  margin:  5px auto;
 }
 @media screen and (min-width: 600px) {
+
+  .whatiscat{
+    display: flex;
+    flex-flow: column;
+  }
+  .catvideo iframe{
+    width: 100%;
+    padding: 10px;
+    margin:0;
+    border: none;
+    flex: 1 auto;
+    min-width: 640px;
+  }
+  .intro{
+    flex: 1 auto;
+  }
+
+
+
   /*.equipments img{
       padding-left: 200px;
       padding-right: 100px;
@@ -608,14 +658,17 @@ p{
       #catmap{
         width: 50%;
       }
-      .whatiscat iframe{
+      /*.whatiscat iframe{
           max-width:80%;
       }
       .catvideo{
         max-width:80%;
-      }
-
+      }*/
 }
+
+
+
+
 .donor2 {
   display: flex;
   flex-flow: row;
@@ -631,12 +684,28 @@ p{
 
 @media screen and (min-width: 1000px) {
 
-  .whatiscat iframe{
+  /*.whatiscat iframe{
       max-width:70%;
   }
   .catvideo{
     max-width:70%;
+  }*/
+  .whatiscat{
+    display: flex;
+    flex-flow: row;
   }
+  .catvideo iframe{
+    width: 100%;
+    padding: 10px;
+    margin:0;
+    border: none;
+    flex: 1 auto;
+    min-width: 640px;
+  }
+  .intro{
+    flex: 1 auto;
+  }
+
 	.navcontainer {
 		flex-direction: row;;
 		justify-content: flex-start;
@@ -712,7 +781,7 @@ p{
 #sean{
   order: 1;
 }
-  .whatiscat{
+  /*.whatiscat{
     display: flex;
     flex-flow: row;
   }
@@ -725,7 +794,7 @@ p{
     order:1;
     padding-left: 20px;
     padding-top: 26px;
-  }
+  }*/
   .intro{
     order:2;
     max-width: 1000px;
@@ -893,11 +962,11 @@ margin-right: auto;
 
 .footertext {
   display: block;
-  background-color: #208a43;
+  background-color: white;
 }
 
 .footertext p {
-  padding-top: 20px;
+
   color:white;
 }
 
@@ -947,8 +1016,12 @@ margin-right: auto;
 
   }
 
-  #footer{
+  .footer{
     text-align: left;
+    display: block;
+    background-color:  #208a43;
+    color: white;
+    width: 100%;
   }
 /*donate*/
 #click {
