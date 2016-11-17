@@ -602,6 +602,16 @@ p{
         max-width:80%;
       }
 }
+.donor2 {
+  display: flex;
+  flex-flow: row;
+
+}
+.donorincolumn {
+  display:flex;
+  flex-flow:column;
+  width: 100%;
+}
 
 
 
@@ -1015,8 +1025,6 @@ margin-right: auto;
 
 .amount  {
   display:block;
-  background-color: #327556;
-  color: white;
   font-size: 20px;
   text-align:left;
 }
