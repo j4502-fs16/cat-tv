@@ -90,7 +90,6 @@ h1 {
   font-size: 2em;
   color:#208a43;
   font-weight: lighter;
-
 }
 
 h2 {
@@ -278,6 +277,19 @@ p{
   border-color: #ffffff;
 }
 
+.videos a:link, .video1 a:visited {
+  color:#208a43;
+  text-decoration: none;
+}
+
+.videos a:hover{
+  display: block;
+  background-color: green;
+  color:white;
+
+}
+
+
 #topnav li {
 
   list-style: none;
@@ -316,7 +328,7 @@ p{
     border: 0;
     width: 100%;
 }
-#navigation a:link, a:visited {
+#navigation a:link, #navigation a:visited {
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
