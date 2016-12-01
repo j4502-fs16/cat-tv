@@ -341,7 +341,7 @@ p{
   border-color: none;
 }
 
-#navigation a:hover, a:active {
+#navigation a:hover, #navigation a:active {
   font-family:'Roboto Condensed', sans-serif;
   color: #12572c;
   background-color: #ffffff;
@@ -1077,7 +1077,9 @@ margin-right: auto;
     margin:0;
 
   }
-
+.footertext{
+  padding-top: 50px;
+}
   #fb{
 
     flex: 1 auto;
