@@ -75,8 +75,8 @@
     <p>-Support of CAT's mission</p>
 
     <h2 class="greentag">Membership Form</h2>
-    <h2>Choose your membership type:</h2>
-<form>
+<div class="formwrapper">
+  <label for="comments">Choose your membership type</label>
   <input type="radio" name="gender" value="Individual Member ($65 annual fee)" checked> Individual Member ($65 annual fee)<br>
   <input type="radio" name="gender" value="Student Member ($30 annual fee)"> Student Member ($30 annual fee)<br>
   <input type="radio" name="gender" value="Senior Member ($30 annual fee)"> Senior Member ($30 annual fee)<br>
@@ -85,42 +85,43 @@
   <input type="radio" name="gender" value="Joining under a current member organization (5 included in organization membership)"> Joining under a current member organization (5 included in organization membership)<br>
   <input type="radio" name="gender" value="Family or Business ($250 annual fee, covers up to 5 people)"> Family or Business ($250 annual fee, covers up to 5 people)<br>
   <input type="radio" name="gender" value="Joining under a current member family or business (5 included in family membership)"> Joining under a current member family or business (5 included in family membership)
-</form>
-<br>
+</div>
+<br><br>
 
-<form>
-  <p>
-    <b>Organization/Family (if applicable):</b>
-  </p><br>
-  <input type="text" name="Organization/Family (if applicable)"><br><br>
-  <p>
-    <b>This Membership is a gift for (if applicable):</b>
-  </p><br>
-  <input type="text" name="This Membership is a gift for (if applicable)"><br>
+<div class="formwrapper">
+  <label for="comments">Organization/Family (if applicable)</label>
+  <input id="firstname" name="firstname" type="text" placeholder="Organization/Family">
+</div>
+
+  <div class="formwrapper">
+    <label for="comments">This membership is a gift for (if applicable)</label>
+    <input id="firstname" name="firstname" type="text" placeholder="Name">
+  </div>
   <br>
-<p>
-  <b>How would you like to pay for your CAT membership?</b>
-</p>
-</form>
 
-<form>
+<div class="formwrapper">
+  <label for="comments">How would you like to pay for your CAT membership?</label>
     <input type="radio" name="payment" value="Pay using a credit card" checked> Pay online using a credit card<br />
     <input type="radio" name="payment" value="Pay with a check on my first visit" />Pay with a check on my first visit
-  </form>
+  </div>
   <br>
-  <form>
-  <p>
-    <b>First name:</b>
-  </p><br>
-  <input type="text" name="firstname"><br><br>
-  <p>
-    <b>Last name:</b>
-  </p><br>
-  <input type="text" name="lastname"><br><br>
-  <p>
-    <b>Email address:</b>
-  </p><br>
-  <input type="text" name="emailaddress"><br>
+  <br>
+
+  <div class="formwrapper">
+    <label for="comments">First Name</label>
+    <input id="firstname" name="firstname" type="text" placeholder="First Name">
+  </div>
+<br />
+  <div class="formwrapper">
+    <label for="comments">Last Name</label>
+    <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+  </div>
+<br />
+  <div class="formwrapper">
+    <label for="comments">First Name</label>
+    <input id="emailaddress" name="emailaddress" type="text" placeholder="Email Address">
+  </div>
+
   <br>
   <input type="submit" value="Submit">
 </form>
