@@ -11,7 +11,6 @@ img {
 }
 
 
-
 .videowrapper {
   height: 200%;
 }
@@ -564,8 +563,71 @@ p{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
 }
 
+/*=============600px media query=============*/
 @media screen and (min-width: 600px) {
 
+/*===home page===*/
+.homecontent{
+   display: flex;
+	 flex-flow: row;
+}
+.videos{
+      display: flex;
+      flex-flow: column;
+			max-width: 60%;
+			border-right: none;
+      order: 1;
+      flex: 1;
+		}
+.homeside{
+      order: 2;
+      max-width: 40%;
+      padding-left: 80px;
+      padding-top: 30px;
+      padding-right: 15px;
+    }
+.quicklink1{
+  max-width: 100%;
+}
+    .video1{
+      display: flex;
+      flex-flow: column;
+    }
+    .video2{
+      display: flex;
+      flex-flow: column;
+    }
+    .video3{
+      display: flex;
+      flex-flow: column;
+    }
+    .video4{
+      display: flex;
+      flex-flow: column;
+    }
+/*.homecontent{
+  display: flex;
+  flex-flow: row;
+}
+.quicklink1{
+  width: 60%;;
+}
+.quicklink{
+  display: flex;
+  flex-flow: column;
+}
+
+.homeside{
+  order: 2;
+  max-width: 80%;
+}
+.videos{
+max-width: 80%;
+border-right: none;
+order: 1;
+}*/
+
+/*===about page===*/
   .whatiscat{
     display: flex;
     flex-flow: column;
@@ -582,13 +644,6 @@ p{
     flex: 1 auto;
   }
 
-
-
-  /*.equipments img{
-      padding-left: 200px;
-      padding-right: 100px;
-      max-width: 50%;
-  }*/
 
   .equipments {
     display: flex;
@@ -703,14 +758,7 @@ p{
     line-height: 2em;
    }
 
-      .homecontent{
- 			display: flex;
- 			flex-flow: column;
- 		}
- 		.videos{
- 			max-width: 60%;
- 			border-right: none;
- 		}*/
+
     .staff{
       display: flex;
       flex-flow: row;
@@ -891,7 +939,7 @@ p{
    display: flex;
 	 flex-flow: row;
 }
-		.videos{
+.videos{
       display: flex;
       flex-flow: column;
 			max-width: 60%;
@@ -902,9 +950,12 @@ p{
 .homeside{
       order: 2;
       max-width: 50%;
-      padding-left: 50px;
+      padding-left: 80px;
       padding-top: 30px;
     }
+.quicklink1{
+  width: 100%;
+}
     .video1{
       display: flex;
       flex-flow: column;
