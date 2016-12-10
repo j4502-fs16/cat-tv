@@ -1,11 +1,16 @@
-
-/*copy paste*/
-
 img {
   border-style: none;
   width: 100%;
   display: block;
 }
+
+.quicklink1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+
 
 .videowrapper {
   height: 200%;
@@ -471,10 +476,7 @@ p{
 	max-width: 100%;
 }
 
-.twitter-timeline{
-	order:2;
-	flex: 1 auto;
-}*/
+
 .catfinancial a{
   text-decoration: underline;
   color: black;
@@ -700,12 +702,6 @@ p{
      margin: 1.5em auto;
     line-height: 2em;
    }
-   /*.twitter-timeline{
-   			display: flex;
-   			flex-flow: column;
-   			order:1;
-   			flex: 1 100%;
-   		}
 
       .homecontent{
  			display: flex;
@@ -903,8 +899,11 @@ p{
       order: 1;
       flex: 1;
 		}
-.twitter-timeline{
+.homeside{
       order: 2;
+      max-width: 50%;
+      padding-left: 50px;
+      padding-top: 30px;
     }
     .video1{
       display: flex;
