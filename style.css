@@ -771,7 +771,7 @@ ds{
 .videos{
       display: flex;
       flex-flow: column;
-			max-width: 60%;
+			min-width: 60%;
 			border-right: none;
       order: 1;
       flex: 1;
@@ -987,6 +987,48 @@ ds{
     order: 1;
     min-width:100%;
   }
+  /*=========this control our main contents in homepage: videos and twitter===============*/
+  .homecontent{
+     display: flex;
+  	 flex-flow: row;
+  }
+  .videos{
+        display: flex;
+        flex-flow: column;
+  			max-width: 60%;
+  			border-right: none;
+        order: 1;
+        flex: 1;
+  		}
+  .homeside{
+        order: 2;
+        max-width: 50%;
+        padding-left: 80px;
+        padding-top: 30px;
+      }
+  .quicklink1{
+    width: 100%;
+  }
+      .video1{
+        display: flex;
+        flex-flow: column;
+      }
+      .video2{
+        display: flex;
+        flex-flow: column;
+      }
+      .video3{
+        display: flex;
+        flex-flow: column;
+      }
+      .video4{
+        display: flex;
+        flex-flow: column;
+      }
+/*================ends control our main contents in homepage: videos and twitter===============*/
+
+
+
 
 /*=========About page==========*/
 
@@ -1006,43 +1048,6 @@ ds{
     flex: 1 auto;
   }
 
-.calendarside{
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-
-}
-
-
-  #Logo-Desktop{
-    width: 70%;
-    height: 100%;
-    /*padding-right: 200px;*/
-    padding-top: -20px;
-  }
-
-	p {
-		width: 80%;
-		margin: 1.5em auto;
-    line-height: 2em;
-	}
-
-  #logo{
-    display: block;
-  }
-
-
- #mobilelogo{
-   display: none;
- }
- #search{
-   display: none;
- }
-  .top {
-    display: flex;
-    flex-flow: row;
-
-  }
 
 
 	p {
@@ -1066,45 +1071,7 @@ ds{
     width: 50%;
   }
 
-/*=========this control our main contents in homepage: videos and twitter===============*/
-.homecontent{
-   display: flex;
-	 flex-flow: row;
-}
-.videos{
-      display: flex;
-      flex-flow: column;
-			max-width: 60%;
-			border-right: none;
-      order: 1;
-      flex: 1;
-		}
-.homeside{
-      order: 2;
-      max-width: 50%;
-      padding-left: 80px;
-      padding-top: 30px;
-    }
-.quicklink1{
-  width: 100%;
-}
-    .video1{
-      display: flex;
-      flex-flow: column;
-    }
-    .video2{
-      display: flex;
-      flex-flow: column;
-    }
-    .video3{
-      display: flex;
-      flex-flow: column;
-    }
-    .video4{
-      display: flex;
-      flex-flow: column;
-    }
-/*================ends control our main contents in homepage: videos and twitter===============*/
+
 
     .calendar{
       width: 100%;
