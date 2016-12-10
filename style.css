@@ -905,8 +905,7 @@ p{
 		}
 .twitter-wrapper{
       order: 2;
-      padding-left: 50px;
-      padding-top: 30px;
+      width: 50%;
     }
     .video1{
       display: flex;
