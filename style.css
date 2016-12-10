@@ -785,6 +785,7 @@ ds{
     }
 .quicklink1{
   max-width: 100%;
+  max-height: 70%;
 }
     .video1{
       display: flex;
