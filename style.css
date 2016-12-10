@@ -306,6 +306,9 @@ p{
 	max-width: 100%;
 }
 
+.twitter{
+  padding-left: 50px;
+}
 
 input {
   display: flex;
