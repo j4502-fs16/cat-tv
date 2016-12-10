@@ -893,7 +893,7 @@ p{
 /*=========this control our main contents in homepage: videos and twitter===============*/
 .homecontent{
    display: flex;
-	 flex-flow: column;
+	 flex-flow: row;
 }
 		.videos{
       display: flex;
@@ -905,6 +905,8 @@ p{
 		}
 .twitter-wrapper{
       order: 2;
+      padding-left: 50px;
+      padding-top: 30px;
     }
     .video1{
       display: flex;
