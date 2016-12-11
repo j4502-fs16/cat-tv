@@ -1,17 +1,3 @@
-.map-wrapper {
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	position: relative;
-	height: 0;
-}
-
-.map-wrapper iframe {
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
 
 img {
   border-style: none;
@@ -98,6 +84,7 @@ p{
   border-width: medium;
   border-color: #ffffff;
 }
+
 #submit a:visited{
   font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
@@ -389,10 +376,6 @@ body{
   margin: 0 auto;
 }
 
-.input[type=text]{
-  width: 130px;
-}
-
 
 #whatsup{
   display: block;
@@ -438,7 +421,50 @@ body{
   display: none;
 }
 
-/*===========[about]===========*/
+
+/*================================[contact]===========================*/
+.whatiscat{
+  padding: 20px;
+}
+.board {
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boardmembers {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #208a43;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.boardmembers p {
+    padding: 10px;
+}
+
+.staff{
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.staffmembers {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.staffmembers p {
+    padding: 10px;
+}
+
+
+/*===============================[about]================================*/
 #abouttop{
   text-align: center;
   padding: 10px;
@@ -487,7 +513,6 @@ body{
 .catvideo iframe{
   width: 95%;
   border: none;
-  padding: 0 10px;
   margin:  5px auto;
 }
 #form-1{
@@ -817,6 +842,45 @@ ds{
     .card {
         width: 30%;
     }
+
+/*===contact page===*/
+.board {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boardmembers {
+    width: 20%;
+}
+
+.staff {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.staffmembers img{
+  min-width: 300px;
+  max-height: 600px;
+}
+.staffmembers {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.staffintro{
+  display: flex;
+  flex-flow: column;
+  min-width: 300px;
+}
+
+.stafftitle p{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 /*===about page===*/
   .whatiscat{
     display: flex;
@@ -824,7 +888,6 @@ ds{
   }
   .catvideo iframe{
     width: 100%;
-    padding: 10px;
     margin:0;
     border: none;
     flex: 1 auto;
@@ -896,16 +959,12 @@ ds{
     display: none;
   }
 
-  .boardmembers{
+  .board{
     display: flex;
     flex-flow:row;
     flex-wrap: wrap;
   }
 
-.board1{
-  flex: 1;
-  margin-right: 20px;
-}
 
 
 	p {
@@ -938,23 +997,6 @@ ds{
     line-height: 2em;
    }
 
-
-    .staff{
-      display: flex;
-      flex-flow: row;
-    }
-    #sean{
-      order: 1;
-    }
-    .intro{
-      order: 2;
-      max-width: 600px;
-    }
-    /*.equipments img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      }*/
       .calendarside{
         display: flex;
         flex-flow: row wrap;
@@ -1057,18 +1099,13 @@ ds{
 /*================ends control our main contents in homepage: videos and twitter===============*/
 
 /*==========contact page==========*/
-.studio_contact{
+.staffmembers img{
+  max-width: 200px;
+}
+.staffmembers {
   display: flex;
-  flex-flow: row;
+  flex-flow: row nowrap;
 }
-.map-wrapper{
-  order: 1;
-}
-.detailcontact{
-  order: 2;
-}
-
-
 /*=========About page==========*/
 
   .whatiscat{
@@ -1077,7 +1114,6 @@ ds{
   }
   .catvideo iframe{
     width: 100%;
-    padding: 10px;
     margin:0;
     border: none;
     flex: 1 auto;
@@ -1087,25 +1123,12 @@ ds{
     flex: 1 auto;
   }
 
-
-
 	p {
 		width: 80%;
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
-.staff{
-  display: flex;
-  flex-flow: row;
-}
-#sean{
-  order: 1;
-}
 
-  .intro{
-    order:2;
-    max-width: 1000px;
-  }
   #catmap{
     width: 50%;
   }
