@@ -1,4 +1,12 @@
-
+.form-radios{
+  padding-left: 25%;
+}
+.paymem{
+  display: block;
+}
+select{
+  width: 60%;
+}
 img {
   border-style: none;
   width: 100%;
@@ -481,7 +489,10 @@ body{
   justify-content: center;
 }
 
+.maintext-membership{
 
+    padding:10px;
+  }
 
 #sidebar {
 		display: none;
@@ -516,7 +527,32 @@ padding-right: 12%;
 #submitbutton{
   width: 50%;
   padding: 20px;
+  background-color: #208a43;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+#membutton{
+  width: 50%;
+  padding: 20px;
+  background-color: #208a43;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+#payonline{
+  width: 50%;
+  padding: 20px;
   background-color: #f1ad1d;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+#paycheck{
+  width: 50%;
+  padding: 20px;
+  background-color: #1d65d4;
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
   font-size: 1.5em;
@@ -556,6 +592,48 @@ padding-right: 12%;
 .formwrapper div{
   margin-bottom: 30px;
 }
+
+/*======membership page=======*/
+.memform{
+color: black;
+text-align: center;
+padding-bottom: 20px;
+padding-left: 2%;
+padding-right: 12%;
+}
+
+.formwrapper-mem label {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #208a43;
+  font-size: 1.5em;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.formwrapper-mem{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.formwrapper-mem input{
+  width: 100%;
+  max-width: 450px;
+  height: 1rem;
+  border: 1px;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#comments{
+  height: 200px;
+}
+
+.formwrapper-mem div{
+  margin-bottom: 30px;
+}
+
 
 .btn-style{
   /*display: flex;
@@ -937,6 +1015,40 @@ padding-right: 12%;
   border-radius: 4px;
 }
 
+/*========membership page========*/
+.memform{
+color: black;
+text-align: center;
+padding-bottom: 20px;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+.formwrapper-mem{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.formwrapper-mem label {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #208a43;
+  font-size: 1.5em;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+
+.formwrapper-mem input{
+  width: 100%;
+  max-width: 450px;
+  height: 1rem;
+  border: 1px;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
 
   .equipments {
     display: flex;
@@ -1146,6 +1258,10 @@ padding-right: 12%;
   display: flex;
   flex-flow: row nowrap;
 }
+/*============membership page=========*/
+.maintext-membership{
+    padding-left:18%;
+  }
 /*=========About page==========*/
 
   .whatiscat{
@@ -1197,8 +1313,6 @@ padding-right: 25%;
   padding-left: 25%;
 }
 
-
-
 .formwrapper input{
   width: 100%;
   max-width: 450px;
@@ -1209,6 +1323,43 @@ padding-right: 25%;
   border: 1px solid black;
   border-radius: 4px;
 }
+
+
+/*=====membership page======*/
+.memform{
+color: black;
+text-align: center;
+padding-bottom: 20px;
+padding-left: 35%;
+padding-right: 35%;
+}
+
+.formwrapper-mem{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.formwrapper-mem label {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #208a43;
+  font-size: 1.5em;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-right: 0%;
+  padding-left: 10%;
+}
+
+.formwrapper-mem input{
+  width: 100%;
+  max-width: 450px;
+  height: 1rem;
+  border: 1px;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
 
     .calendar{
       width: 100%;

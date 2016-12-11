@@ -64,21 +64,17 @@
   </div>
 
 
-
-    <br>
-    <br>
     <!-- <div class="main"> -->
-<div id="abouttop">
+<div class="maintext">
     <h3>Join Columbia <strong>Access</strong> Television</h3>
-    <p>need more info about how the membership works and sth to draw people in, like discount</p>
-    <p>need more info about how the membership works and sth to draw people in, like discount</p>
-    <p>need more info about how the membership works and sth to draw people in, like discount</p>
+    <p>Fill out a <a href="membershipform.pdf">membership form</a> in person or online form below. CAT membership is available to anyone who lives or works in Boone County, Missouri. Annual membership includes:  equipment/facilities checkout (training required), one training class (studio camera), access to CAT services (additional costs may apply), program submissions (up to 6 hours/week of content), access to CAT's network of volunteers, CAT email updates, news, opportunities, and support of CAT's mission.</p>
 
     </div>
-    <h2 class="greentag">Join Columbia Access Television</h2>
+
+    <h2 class="greentag">What you can get from a CAT membership</h2>
     <!-- <h2>Fill out an online membership form today</h2> -->
-<center>
-    <h1>Your annual membership includes:</h1>
+
+    <div class="maintext-membership">
 
     <p>-Equipment/Facilities checkout (training required)</p>
     <p>-One training class - Field Camera and Light Kit Class</p>
@@ -86,67 +82,106 @@
     <p>-Program submissions (up to 6 hours/week of content)</p>
     <p>-Access to CAT's network of volunteers</p>
     <p>-CAT email updates, news, opportunities</p>
-    <p>-Support of CAT's mission</p>
+    <p>-Support of CAT's mission</p>    </div>
 
-    <h2 class="greentag">Membership Form</h2>
-<div class="formwrapper">
-  <label for="comments">Choose your membership type</label>
-  <input type="radio" name="gender" value="Individual Member ($65 annual fee)" checked> Individual Member ($65 annual fee)<br>
-  <input type="radio" name="gender" value="Student Member ($30 annual fee)"> Student Member ($30 annual fee)<br>
-  <input type="radio" name="gender" value="Senior Member ($30 annual fee)"> Senior Member ($30 annual fee)<br>
-  <input type="radio" name="gender" value="Military Member ($30 annual fee)"> Military Member ($30 annual fee)<br>
-  <input type="radio" name="gender" value="Nonprofit Organization ($150 annual fee, covers up to 5 people)"> Nonprofit Organization ($150 annual fee, covers up to 5 people)<br>
-  <input type="radio" name="gender" value="Joining under a current member organization (5 included in organization membership)"> Joining under a current member organization (5 included in organization membership)<br>
-  <input type="radio" name="gender" value="Family or Business ($250 annual fee, covers up to 5 people)"> Family or Business ($250 annual fee, covers up to 5 people)<br>
-  <input type="radio" name="gender" value="Joining under a current member family or business (5 included in family membership)"> Joining under a current member family or business (5 included in family membership)
+    <h2 class="greentag">Online Membership Form</h2>
+
+
+<div class="memform">
+
+  <div class="formwrapper-mem">
+<label for="category"> Choose your membership type*</label>
+<br>
+<br>
+<select>
+  <option value= "Select an Option"> Choose your membership type </option>
+  <option value= "Best Creative Portfolio">Individual Member ($65 annual fee)</option>
+  <option value= "Best Digital Ad">Student Member ($30 annual fee)</option>
+  <option value= "Best Plan Book Design">Senior Member ($30 annual fee)</option>
+  <option value= "Best Print Ad">Military Member ($30 annual fee)</option>
+  <option value= "Best PR Feature"> Nonprofit Organization ($150 annual fee, covers up to 5 people) </option>
+  <option value= "Best Overall Research and Campaign Strategy"> Joining under a current member organization (5 included in organization membership) </option>
+  <option value= "Best Short Form Video (<1:30)"> Family or Business ($250 annual fee, covers up to 5 people) (<1:30)</option>
+  <option value= "Best Long Form Video (1:30-5:00)"> Joining under a current member family or business (5 included in family membership)</option>
+</select>
 </div>
-<br><br>
 
-<div class="formwrapper">
-  <label for="comments">Organization/Family (if applicable)</label>
-  <input id="firstname" name="firstname" type="text" placeholder="Organization/Family">
-</div>
 
-  <div class="formwrapper">
-    <label for="comments">This membership is a gift for (if applicable)</label>
-    <input id="firstname" name="firstname" type="text" placeholder="Name">
-  </div>
-  <br>
+    <div class="formwrapper-mem">
+    <label for="name">First Name</label>
+      <input id="name" name="name" type="text" placeholder="CAT">
+    </div>
 
-<div class="formwrapper">
+    <div class="formwrapper-mem">
+      <label for="phone">Last Name</label>
+      <input id="phone" name="phone" type="tel" placeholder="CAT">
+    </div>
+
+    <div class="formwrapper-mem">
+      <label for="email">Email Address</label>
+      <input id="email" name="email" type="email" placeholder="Membership is available to anyone who lives or works in Boone County.">
+    </div>
+
+    <div class="formwrapper-mem">
+      <label for="email">Email Address</label>
+      <input id="email" name="email" type="email" placeholder="CATV@cat.tv">
+    </div>
+
+    <div class="formwrapper-mem">
+      <label for="comments">Organization/Family (if applicable)</label>
+      <input id="firstname" name="firstname" type="text" placeholder="Organization/Family">
+    </div>
+
+    <div class="formwrapper-mem">
+      <label for="comments">This membership is a gift for (if applicable)</label>
+      <input id="firstname" name="firstname" type="text" placeholder="Name">
+    </div>
+
+
+
+<div class="formwrapper-mem">
   <label for="comments">How would you like to pay for your CAT membership?</label>
-    <input type="radio" name="payment" value="Pay using a credit card" checked> Pay online using a credit card<br />
-    <input type="radio" name="payment" value="Pay with a check on my first visit" />Pay with a check on my first visit
+<div class="paymem">
+        <br>
+        <br>
+        <button id="payonline" type="button" onclick="alert('Payment Received!')">Pay online using a credit card</button>
+        <br>
+        <br>
+        <button id="paycheck" type="button" onclick="alert('Pay with a check on your first visit')">Pay with a check on my first visit</button>
   </div>
-  <br>
-  <br>
-
-  <div class="formwrapper">
-    <label for="comments">First Name</label>
-    <input id="firstname" name="firstname" type="text" placeholder="First Name">
-  </div>
-<br />
-  <div class="formwrapper">
-    <label for="comments">Last Name</label>
-    <input id="lastname" name="lastname" type="text" placeholder="Last Name">
-  </div>
-<br />
-  <div class="formwrapper">
-    <label for="comments">First Name</label>
-    <input id="emailaddress" name="emailaddress" type="text" placeholder="Email Address">
-  </div>
-
-  <br>
-  <input type="submit" value="Submit">
-</form>
-
-  <br>
-  <br>
-</form>
 </div>
-<br>
-<br>
-</center>
+
+<div class="formwrapper-mem">
+<div class="webform-component-select" id="webform-component-digital_signature"><div class="form-item">
+ <label>Digital Signature: <span class="form-required" title="This field is required.">*</span></label>
+ <input id="firstname" name="firstname" type="text" placeholder="Signature">
+</div>
+</div>
+
+</div>
+
+<div class="formwrapper-mem">
+      <button id="membutton" type="button" onclick="alert('Welcome to CAT')">Join!</button>
+    </div>
+
+</div>
+
+    <h2 class="greentag">Frequently Asked Questions</h2>
+<div class="maintext">
+    <h3>I am a beginner with no training and no experience. Can I join CAT?</h3>
+    <p>Yes, beginners are absolutely welcome. At CAT we have all the tools you will need to go from viewer to producer. Start with a training class.</p>
+
+    <h3>This sounds too good to be true. What’s the catch?</h3>
+    <p>CAT equipment/facilities must be used for the sole purpose and/or intent of producing programming for CAT. Any video made with CAT equipment/facilities must air on CAT before it is distributed anywhere else. However, all program rights belong to the programʼs Producer/Provider.</p>
+
+    <h3>I am a Stephens College student / faculty member. Do I have to pay for CAT services?</h3>
+    <p>CAT has a special relationship with Stephens College - our facilities are located on your campus. Stephens students/faculty/staff do not have to pay for CAT membership - simply fill out a membership form. Before using CAT equipment/facilities, you must either take CAT training classes (costs may apply) or “test out” of training. To test out, you must demonstrate that you can use our gear safely and properly. Contact us to make an appointment.</p>
+
+    <h3>Do I have to be a CAT member to take a training class?</h3>
+    <p>Yes, training classes are only available to CAT members.</p>
+
+    <h3>This looks too expensive for my budget. Am I out of luck?</h3>
+    <p>We recommend finding one or more underwriters. An underwriter is an individual or business that supports your CAT program - with cash, food, costumes, etc. In exchange you can give them screen credit. Recognition is limited to the logo, name, website address, street address, and phone number of the individual or business. Commercial products or services may not be represented. Underwriting credits are limited to no more than 30 seconds for a 1/2 hour program, 60 seconds for an hour-long program.</p>
 
 <!-- =============footer============== -->
       <div class="bottomlogo">
