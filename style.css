@@ -1,21 +1,17 @@
-.card-container {
-    display: flex;
-    flex-flow: column;
-    padding: 20px;
+.map-wrapper {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
 }
 
-.card {
-    border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid #208a43;
-    padding: 0;
-    margin-bottom: 20px;
+.map-wrapper iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
-
-.card p {
-    padding: 10px;
-}
-
 
 img {
   border-style: none;
@@ -341,6 +337,24 @@ p{
 
 
 /*==homecontent==*/
+.card-container {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #208a43;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card p {
+    padding: 10px;
+}
+
 .homecontent{
   padding: 10px;
 }
@@ -353,9 +367,7 @@ p{
 	max-width: 100%;
 }
 
-.twitter{
-  padding-left: 50px;
-}
+
 
 input {
   display: flex;
@@ -455,11 +467,7 @@ body{
   color: white;
   padding: 5px;
 }
-#catmap{
-  display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+
 
 #sidebar {
 		display: none;
@@ -473,6 +481,7 @@ body{
 
 .detailcontact p{
   text-align: center;
+  line-height: 5px;
 }
 
 .catvideo iframe{
@@ -981,13 +990,13 @@ ds{
     display: flex;
     flex-flow: column;
     order: 2;
-    min-width: 200px;
+    max-width: 700px;
   }
   #channel{
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     order: 2;
-    width: 80%;
+    width: 100%;
   }
 
   ds{
@@ -1042,7 +1051,17 @@ ds{
 
 /*================ends control our main contents in homepage: videos and twitter===============*/
 
-
+/*==========contact page==========*/
+.studio_contact{
+  display: flex;
+  flex-flow: row;
+}
+.map-wrapper{
+  order: 1;
+}
+.detailcontact{
+  order: 2;
+}
 
 
 /*=========About page==========*/
