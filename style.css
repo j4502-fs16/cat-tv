@@ -71,6 +71,7 @@ p{
 }
 
 #submit a:link{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
@@ -83,6 +84,7 @@ p{
   border-color: #ffffff;
 }
 #submit a:visited{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
@@ -95,6 +97,7 @@ p{
   border-color: #ffffff;
 }
 #submit a:active{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #000000;
@@ -107,6 +110,7 @@ p{
   border-color: #ffffff;
 }
 #submit a:hover{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #12572c;
@@ -119,6 +123,7 @@ p{
   border-color: #ffffff;
 }
 #donate a:link {
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
@@ -131,6 +136,7 @@ p{
   border-color: #ffffff;
 }
 #donate a:visited {
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
@@ -143,6 +149,7 @@ p{
   border-color: #ffffff;
 }
 #donate a:active{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #;
@@ -155,6 +162,7 @@ p{
   border-color: #ffffff;
 }
 #donate a:hover{
+  font-size: 1.5em;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #12572c;
@@ -258,11 +266,17 @@ p{
 #navigation {
   display: none;
 }
+.verytop{
+  display: none;
+}
+.verytop_mobile{
+  padding-bottom: 15px;
+}
 
 .menu-trigger {
   display:block;
-  background-color: #208A43;
-  color: white;
+  font-size: 5em;
+  color: #208a43;
   order: 1;
   height:25%;
   text-decoration: none;
@@ -270,7 +284,6 @@ p{
 }
 .menu-trigger {
   padding-top: 20px;
-  font-size: 7.5em;
   flex:1;
 }
 
@@ -288,10 +301,13 @@ p{
 }
 
 #search {
+  width: 20%;
+  height: 20%;
   padding-top:40px;
+  padding-left: 10px;
   order:3;
-  flex:0.75;
 }
+
 
 /*==homecontent==*/
 .homecontent{
@@ -741,6 +757,10 @@ body{
 @media screen and (min-width: 600px) {
 
 /*===home page===*/
+.verytop_mobile{
+  display: none;
+}
+
 .verytop{
   display: flex;
   flex-flow: row;
@@ -750,6 +770,9 @@ body{
   flex-flow: column;
   order: 2;
   min-width: 200px;
+}
+#searchbar{
+  order:3;
 }
 #channel{
   order: 2;
@@ -840,6 +863,7 @@ ds{
   height: 50px;
   padding: 10px;*/
 }
+
   #navigation {
     justify-content: space-around;
     justify-content: flex-start;
@@ -974,11 +998,13 @@ ds{
     min-width: 200px;
   }
   #channel{
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     order: 2;
     width: 80%;
-    padding-left: 100px;
   }
+
+
   ds{
     display: block;
     order:1;
