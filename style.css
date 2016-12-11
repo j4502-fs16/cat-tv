@@ -323,7 +323,7 @@ p{
 }
 
 .twitter{
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 input {
@@ -794,7 +794,7 @@ ds{
 .videos{
       display: flex;
       flex-flow: column;
-			min-width: 60%;
+			min-width: 70%;
 			border-right: none;
       order: 1;
       flex: 1;
