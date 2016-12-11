@@ -205,6 +205,18 @@ p{
   color:#208a43;
   text-decoration: none;
 }
+.videos a:link, .video2 a:visited {
+  color:#208a43;
+  text-decoration: none;
+}
+.videos a:link, .video3 a:visited {
+  color:#208a43;
+  text-decoration: none;
+}
+.videos a:link, .video4 a:visited {
+  color:#208a43;
+  text-decoration: none;
+}
 
 .videos a:hover{
   display: block;
