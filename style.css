@@ -1,3 +1,22 @@
+.card-container {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #208a43;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+
 img {
   border-style: none;
   width: 100%;
@@ -741,7 +760,6 @@ ds{
   min-width: 400px;
 }
 
-
 .homecontent{
    display: flex;
 	 flex-flow: row;
@@ -781,8 +799,15 @@ ds{
       display: flex;
       flex-flow: column;
     }
+    .card-container {
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-
+    .card {
+        width: 30%;
+    }
 /*===about page===*/
   .whatiscat{
     display: flex;
@@ -965,7 +990,6 @@ ds{
     width: 80%;
   }
 
-
   ds{
     display: block;
     order:1;
@@ -1012,6 +1036,10 @@ ds{
         display: flex;
         flex-flow: column;
       }
+      .card {
+          width: 30%;
+      }
+
 /*================ends control our main contents in homepage: videos and twitter===============*/
 
 
