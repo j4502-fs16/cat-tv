@@ -520,6 +520,13 @@ body{
   display: none;
 }
 
+/*===========================[Watch page]=========================*/
+.watchlive{
+text-align: center;
+}
+.watchlive iframe{
+  width: 100%;
+}
 
 /*================================[contact]===========================*/
 .whatiscat{
@@ -596,6 +603,24 @@ body{
 }
 
 .checkoutsss p {
+    padding: 10px;
+}
+/*=====================[watch]======================*/
+.pocast{
+    display: flex;
+    flex-flow: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pocastshows {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pocastshows p {
     padding: 10px;
 }
 
@@ -1099,6 +1124,13 @@ ds{
   font-weight: bold;
   font-size: 1.2em;
 }
+/*=========watchlive========*/
+.watchlive{
+text-align: center;
+}
+.watchlive iframe{
+  max-width: 480px;
+}
 
 /*=======learn page=====*/
 .train {
@@ -1147,6 +1179,33 @@ ds{
   display: flex;
   flex-flow: column;
   min-width: 300px;
+}
+
+/*======watchlive======*/
+.pocast {
+    display: flex;
+    flex-flow: column;
+}
+
+.pocastshows img{
+  min-width: 400px;
+  max-height: 400px;
+}
+.pocastshows {
+  display: flex;
+  flex-flow: row;
+}
+
+.pocastintro{
+  display: flex;
+  flex-flow: column;
+  min-width: 300px;
+}
+
+.pocasttitle p{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 /*===about page===*/
   .whatiscat{
@@ -1463,7 +1522,15 @@ padding-right: 15%;
   display: flex;
   flex-flow: row nowrap;
 }
-
+/*===watch===*/
+.pocastshows img{
+  min-width: 100px;
+  max-width: 400px;
+}
+.pocastshows {
+  display: flex;
+  flex-flow: row nowrap;
+}
 /*============membership page=========*/
 .maintext-membership{
     padding-left:18%;
