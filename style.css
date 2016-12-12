@@ -968,7 +968,7 @@ padding-right: 12%;
 
 .donor2 {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
 
 }
 .donorincolumn {
@@ -1058,7 +1058,10 @@ ds{
     .card {
         width: 30%;
     }
-
+  .donor2 {
+      display:flex;
+      flex-flow:row;
+    }
 /*===contact page===*/
 .board {
     flex-flow: row;
@@ -1429,7 +1432,10 @@ padding-right: 15%;
       .card {
           width: 30%;
       }
-
+.donor2 {
+        display:flex;
+        flex-flow:row;
+      }
 /*================ends control our main contents in homepage: videos and twitter===============*/
 
 /*==========contact page==========*/
