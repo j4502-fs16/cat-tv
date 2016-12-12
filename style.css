@@ -876,7 +876,21 @@ padding-right: 12%;
 
 
 
-
+#subscribe {
+  font-size: 35px;
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color:#1d65d4;
+  text-align:center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+  height:50px;
+  margin:autotop 20%;
+}
 
 
 /*========================================[donate page]============================*/
@@ -895,6 +909,7 @@ padding-right: 12%;
   height:50px;
   margin: 0 20%;
 }
+
 
 #banks {
   display:flex;
@@ -1083,10 +1098,14 @@ ds{
     .card {
         width: 30%;
     }
+
   .donor2 {
       display:flex;
       flex-flow:row;
     }
+
+
+
 /*===contact page===*/
 .board {
     flex-flow: row;
@@ -1491,10 +1510,19 @@ padding-right: 15%;
       .card {
           width: 30%;
       }
+<<<<<<< Updated upstream
 .donor2 {
         display:flex;
         flex-flow:row;
       }
+=======
+      .donor2 {
+        display:flex;
+        flex-flow:row;
+      }
+
+
+>>>>>>> Stashed changes
 /*================ends control our main contents in homepage: videos and twitter===============*/
 
 /*==========contact page==========*/
@@ -1514,6 +1542,7 @@ padding-right: 15%;
   display: flex;
   flex-flow: row nowrap;
 }
+
 .checkoutsss img{
   max-width: 200px;
   max-height: 600px;
