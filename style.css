@@ -1124,7 +1124,7 @@ ds{
 
 
 .staffmembers img{
-  min-width: 300px;
+  max-width: 350px;
   max-height: 600px;
 }
 .staffmembers {
