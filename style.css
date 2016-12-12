@@ -884,12 +884,12 @@ padding-right: 12%;
   background-color:#1d65d4;
   text-align:center;
   text-decoration: none;
-  padding: 6px;
+  padding:16px 6px;
   border-style: solid;
   border-width: medium;
   border-color: #ffffff;
-  height:50px;
-  margin:autotop 20%;
+  height:30px;
+  margin:0 20%;
 }
 
 
